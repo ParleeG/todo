@@ -1,0 +1,6 @@
+<small *ngIf="isInvalid">{{errorMessage}}</small>
+<div>
+USERNAME: <input type="text" name="Username" [(ngModel)]="username"><br><br>
+PASSWORD: <input type="password" name="Password" [(ngModel)]="password"><br><br>
+<button (click)="whatToDO()">SUBMIT</button>
+</div>
