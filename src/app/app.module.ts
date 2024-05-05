@@ -7,13 +7,19 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
 import { ErrormessageComponent } from './errormessage/errormessage.component';
+import { TodolistComponent } from './todolist/todolist.component';
+import { NavComponent } from './nav/nav.component';
+import { LogoutComponent } from './logout/logout.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     LoginComponent,
-    ErrormessageComponent
+    ErrormessageComponent,
+    TodolistComponent,
+    NavComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,
